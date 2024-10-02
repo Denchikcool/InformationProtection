@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\lab1.csproj": {}
+    "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\lab1.csproj": {}
   },
   "projects": {
-    "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\lab1.csproj": {
+    "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\lab1.csproj",
+        "projectUniqueName": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\lab1.csproj",
+        "projectPath": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\lab1.csproj",
         "packagesPath": "C:\\Users\\Denchik\\.nuget\\packages\\",
-        "outputPath": "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\obj\\",
+        "outputPath": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Denchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
