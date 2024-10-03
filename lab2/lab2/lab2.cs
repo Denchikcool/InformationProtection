@@ -11,7 +11,7 @@ namespace lab2
     class Program
     {
         private static string _fileName = "input";
-        private static string _extension = "txt";
+        private static string _extension = "png";
 
         private static Dictionary<string, long> _keysShamir = new Dictionary<string, long>();
         private static Dictionary<string, long> _keysElGamal = new Dictionary<string, long>();
@@ -27,13 +27,13 @@ namespace lab2
             Console.WriteLine("Зашифрованные данные:");
             Console.WriteLine(string.Join(", ", shamEnc));
 
-            File.WriteAllText("shamir_encoded.txt", string.Join(",", shamEnc));
+            File.WriteAllText("shamir_encoded.png", string.Join(",", shamEnc));
 
             var shamDec = ShamirDecode(shamEnc);
             Console.WriteLine("Расшифрованные данные:");
             Console.WriteLine(BitConverter.ToString(shamDec.Select(x => (byte)x).ToArray()));
 
-            File.WriteAllBytes("shamir_decoded.txt", shamDec.Select(x => (byte)x).ToArray());
+            File.WriteAllBytes("shamir_decoded.png", shamDec.Select(x => (byte)x).ToArray());
             Console.WriteLine("==============================================================\n");
 
             Console.WriteLine("===========================El-Gamal===========================");
@@ -41,13 +41,13 @@ namespace lab2
             Console.WriteLine("Зашифрованные данные:");
             Console.WriteLine(string.Join(", ", elGamalEnc));
 
-            File.WriteAllText("elgamal_encoded.txt", string.Join(",", elGamalEnc));
+            File.WriteAllText("elgamal_encoded.png", string.Join(",", elGamalEnc));
 
             var elGamalDec = ElGamal_Decode(elGamalEnc);
             Console.WriteLine("Расшифрованные данные:");
             Console.WriteLine(BitConverter.ToString(elGamalDec.Select(x => (byte)x).ToArray()));
 
-            File.WriteAllBytes("elgamal_decoded.txt", elGamalDec.Select(x => (byte)x).ToArray());
+            File.WriteAllBytes("elgamal_decoded.png", elGamalDec.Select(x => (byte)x).ToArray());
             Console.WriteLine("==============================================================\n");
 
             Console.WriteLine("============================Vernam============================");
@@ -55,13 +55,13 @@ namespace lab2
             Console.WriteLine("Зашифрованные данные:");
             Console.WriteLine(string.Join(", ", vernamEnc));
 
-            File.WriteAllText("vernam_encoded.txt", string.Join(",", vernamEnc));
+            File.WriteAllText("vernam_encoded.png", string.Join(",", vernamEnc));
 
             var vernamDec = Vernam_Decode(vernamEnc);
             Console.WriteLine("Расшифрованные данные:");
             Console.WriteLine(BitConverter.ToString(vernamDec.Select(x => (byte)x).ToArray()));
 
-            File.WriteAllBytes("vernam_decoded.txt", vernamDec.Select(x => (byte)x).ToArray());
+            File.WriteAllBytes("vernam_decoded.png", vernamDec.Select(x => (byte)x).ToArray());
             Console.WriteLine("==============================================================\n");
 
             Console.WriteLine("=============================RSA==============================");
@@ -69,13 +69,13 @@ namespace lab2
             Console.WriteLine("Зашифрованные данные:");
             Console.WriteLine(string.Join(", ", rsaEnc));
 
-            File.WriteAllText("rsa_encoded.txt", string.Join(",", rsaEnc));
+            File.WriteAllText("rsa_encoded.png", string.Join(",", rsaEnc));
 
             var rsaDec = RSA_Decode(rsaEnc);
             Console.WriteLine("Расшифрованные данные:");
             Console.WriteLine(BitConverter.ToString(rsaDec.Select(x => (byte)x).ToArray()));
 
-            File.WriteAllBytes("rsa_decoded.txt", rsaDec.Select(x => (byte)x).ToArray());
+            File.WriteAllBytes("rsa_decoded.png", rsaDec.Select(x => (byte)x).ToArray());
             Console.WriteLine("==============================================================\n");
         }
 
