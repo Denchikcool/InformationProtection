@@ -303,40 +303,65 @@ namespace lab2
         {
             List<BigInteger> result = new List<BigInteger>();
             Random rnd = new Random();
-            long p = MainOperations.GenerateModule(1000000, 1000000000, rnd);
-            Console.WriteLine($"p = {p}");
+            long p1 = MainOperations.GenerateModule(1000000, 1000000000, rnd);
+            Console.WriteLine($"p = {p1}");
 
-            long q = MainOperations.GenerateModule(1000000, 1000000000, rnd);
-            Console.WriteLine($"q = {q}");
+            long p2 = MainOperations.GenerateModule(1000000, 1000000000, rnd);
+            Console.WriteLine($"p = {p2}");
 
-            long n = p * q;
-            Console.WriteLine($"n = {n}");
+            long q1 = MainOperations.GenerateModule(1000000, 1000000000, rnd);
+            Console.WriteLine($"q = {q1}");
 
-            long phi = (p - 1) * (q - 1);
-            Console.WriteLine($"phi = {phi}");
+            long q2 = MainOperations.GenerateModule(1000000, 1000000000, rnd);
+            Console.WriteLine($"q = {q2}");
 
-            long d = GenerateCoprime(phi);
-            Console.WriteLine($"d = {d}");
+            long Na = p1 * q1;
+            Console.WriteLine($"n = {Na}");
+
+            long Nb = p2 * q2;
+            Console.WriteLine($"n = {Nb}");
+
+            long phi1 = (p1 - 1) * (q1 - 1);
+            Console.WriteLine($"phi = {phi1}");
+
+            long phi2 = (p2 - 1) * (q2 - 1);
+            Console.WriteLine($"phi = {phi2}");
+
+            long Da = GenerateCoprime(phi1);
+            Console.WriteLine($"d = {Da}");
+
+            long Db = GenerateCoprime(phi2);
+            Console.WriteLine($"d = {Db}");
             //Console.WriteLine($"NOD = {MainOperations.EvklidSolve(d, phi).Item1}\nx = {MainOperations.EvklidSolve(d, phi).Item2}\ny = {MainOperations.EvklidSolve(d, phi).Item3}");
-            long c = MainOperations.EvklidSolve(d, phi).Item2;
-            
-            if(c < 0)
+            long Ca = MainOperations.EvklidSolve(Da, phi1).Item2;
+            long Cb = MainOperations.EvklidSolve(Db, phi2).Item2;
+
+            if (Ca < 0)
             {
-                c += phi;
+                Ca += phi1;
             }
-            Console.WriteLine($"c = {c}");
+            if (Cb < 0)
+            {
+                Cb += phi2;
+            }
+            Console.WriteLine($"c = {Ca}");
+            Console.WriteLine($"c = {Cb}");
             //Console.WriteLine($"Module = {MainOperations.FastPow(c * d, 1, phi)}");
             _keysRSA = new Dictionary<string, BigInteger>
             {
-                {"c", c },
-                {"n", n }
+                {"Cb", Cb },
+                {"Nb", Nb },
+                {"Da", Da },
+                {"Na", Na }
             };
             
 
             foreach(var part in m)
             {
-                BigInteger e = 0;
-                e = MainOperations.FastPow(part, d, n);
+                BigInteger e = 0, temp = 0;
+
+                temp = MainOperations.FastPow1(part, Ca, Na);
+                e = MainOperations.FastPow1(temp, Db, Nb);
                 result.Add(e);
             }
             return result;
@@ -345,12 +370,16 @@ namespace lab2
         private static List<BigInteger> RSA_Decode(List<BigInteger> e)
         {
             List<BigInteger> result = new List<BigInteger>();
-            BigInteger c = _keysRSA["c"];
-            BigInteger n = _keysRSA["n"];
+            BigInteger Cb = _keysRSA["Cb"];
+            BigInteger Nb = _keysRSA["Nb"];
+            BigInteger Da = _keysRSA["Da"];
+            BigInteger Na = _keysRSA["Na"];
             foreach (var part in e) 
             {
                 BigInteger m1 = 0;
-                m1 = MainOperations.FastPow1(part, c, n);
+                BigInteger temp = 0;
+                temp = MainOperations.FastPow1(part, Cb, Nb);
+                m1 = MainOperations.FastPow1(temp, Da, Na);
                 result.Add(m1);
             }
             return result;
