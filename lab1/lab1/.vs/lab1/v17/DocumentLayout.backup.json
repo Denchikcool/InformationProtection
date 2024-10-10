@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\",
+  "WorkspaceRootPath": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F79C936-697D-4710-8317-D05C58861E2A}|lab1.csproj|d:\\studing\\university\\information protection\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F79C936-697D-4710-8317-D05C58861E2A}|lab1.csproj|d:\\studing\\university\\information protection\\informationprotection\\lab1\\lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79C936-697D-4710-8317-D05C58861E2A}|lab1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\Program.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Studing\\University\\Information Protection\\lab1\\lab1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAAuAAAAAAAAAA==",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab1\\lab1\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T10:46:04.718Z",
               "EditorCaption": ""
