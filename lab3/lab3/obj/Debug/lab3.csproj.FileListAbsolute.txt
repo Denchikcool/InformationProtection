@@ -1,0 +1,7 @@
+D:\Studing\University\Information Protection\lab3\lab3\bin\Debug\lab3.exe.config
+D:\Studing\University\Information Protection\lab3\lab3\bin\Debug\lab3.exe
+D:\Studing\University\Information Protection\lab3\lab3\bin\Debug\lab3.pdb
+D:\Studing\University\Information Protection\lab3\lab3\obj\Debug\lab3.csproj.AssemblyReference.cache
+D:\Studing\University\Information Protection\lab3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+D:\Studing\University\Information Protection\lab3\lab3\obj\Debug\lab3.exe
+D:\Studing\University\Information Protection\lab3\lab3\obj\Debug\lab3.pdb
