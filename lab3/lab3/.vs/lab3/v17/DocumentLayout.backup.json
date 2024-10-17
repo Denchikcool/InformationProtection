@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Studing\\University\\Information Protection\\lab3\\lab3\\",
+  "WorkspaceRootPath": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab3\\lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{223ED4FD-70D8-4820-918F-D443FB29ECD6}|lab3.csproj|d:\\studing\\university\\information protection\\lab3\\lab3\\lab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{223ED4FD-70D8-4820-918F-D443FB29ECD6}|lab3.csproj|d:\\studing\\university\\information protection\\informationprotection\\lab3\\lab3\\lab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{223ED4FD-70D8-4820-918F-D443FB29ECD6}|lab3.csproj|solutionrelative:lab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{223ED4FD-70D8-4820-918F-D443FB29ECD6}|lab3.csproj|D:\\Studing\\University\\Information Protection\\lab3\\lab3\\mainoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{223ED4FD-70D8-4820-918F-D443FB29ECD6}|lab3.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\lab3\\lab3\\mainoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{223ED4FD-70D8-4820-918F-D443FB29ECD6}|lab3.csproj|solutionrelative:mainoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,9 +28,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainOperations.cs",
-              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\lab3\\lab3\\MainOperations.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab3\\lab3\\MainOperations.cs",
               "RelativeDocumentMoniker": "MainOperations.cs",
-              "ToolTip": "D:\\Studing\\University\\Information Protection\\lab3\\lab3\\MainOperations.cs",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab3\\lab3\\MainOperations.cs",
               "RelativeToolTip": "MainOperations.cs",
               "ViewState": "AgIAALEAAAAAAAAAAIA/wL8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -40,11 +40,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "lab3.cs",
-              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\lab3\\lab3\\lab3.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab3\\lab3\\lab3.cs",
               "RelativeDocumentMoniker": "lab3.cs",
-              "ToolTip": "D:\\Studing\\University\\Information Protection\\lab3\\lab3\\lab3.cs",
-              "RelativeToolTip": "lab3.cs",
-              "ViewState": "AgIAADUBAAAAAAAAAAAswEMBAAAXAAAAAAAAAA==",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\lab3\\lab3\\lab3.cs*",
+              "RelativeToolTip": "lab3.cs*",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwH0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T10:38:42.96Z",
               "EditorCaption": ""

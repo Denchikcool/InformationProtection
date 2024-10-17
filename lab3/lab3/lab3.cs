@@ -111,7 +111,7 @@ namespace lab3
             Console.WriteLine($"Подпись: El-Gamal md5-хеш (числовое представление хеш-функции): {h_b}");
 
             var u = h.Select(i => (Convert.ToInt32(i.ToString(), 16) - x * r) % (p - 1)).ToList();
-            int j = 0;
+            /*int j = 0;
             List<long> s = new List<long>();
             foreach (long i in u)
             {
@@ -124,8 +124,8 @@ namespace lab3
                         s.Add((MainOperations.EvklidSolve(k, p - 1).Item2 * i));
                 }
                 j++;
-            }
-            //var s = u.Select(i => (MainOperations.EvklidSolve(k, p - 1).Item2 * i) % (p - 1)).ToList();
+            }*/
+            var s = u.Select(i => (MainOperations.EvklidSolve(k, p - 1).Item2 * i) % (p - 1)).ToList();
 
             return s;
         }
