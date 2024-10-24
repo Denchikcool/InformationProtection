@@ -1,0 +1,7 @@
+D:\Studing\University\Information Protection\lab4\lab4\bin\Debug\lab4.exe.config
+D:\Studing\University\Information Protection\lab4\lab4\bin\Debug\lab4.exe
+D:\Studing\University\Information Protection\lab4\lab4\bin\Debug\lab4.pdb
+D:\Studing\University\Information Protection\lab4\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+D:\Studing\University\Information Protection\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\Studing\University\Information Protection\lab4\lab4\obj\Debug\lab4.exe
+D:\Studing\University\Information Protection\lab4\lab4\obj\Debug\lab4.pdb
