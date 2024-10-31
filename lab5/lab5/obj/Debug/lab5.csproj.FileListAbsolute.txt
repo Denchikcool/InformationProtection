@@ -1,0 +1,7 @@
+D:\Studing\University\Information Protection\lab5temp1\lab5\obj\Debug\lab5.csproj.AssemblyReference.cache
+D:\Studing\University\Information Protection\lab5temp1\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+D:\Studing\University\Information Protection\lab5temp1\lab5\bin\Debug\lab5.exe.config
+D:\Studing\University\Information Protection\lab5temp1\lab5\bin\Debug\lab5.exe
+D:\Studing\University\Information Protection\lab5temp1\lab5\bin\Debug\lab5.pdb
+D:\Studing\University\Information Protection\lab5temp1\lab5\obj\Debug\lab5.exe
+D:\Studing\University\Information Protection\lab5temp1\lab5\obj\Debug\lab5.pdb
