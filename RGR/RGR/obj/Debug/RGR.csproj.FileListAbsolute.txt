@@ -5,3 +5,10 @@ D:\Studing\University\Information Protection\RGR\RGR\obj\Debug\RGR.csproj.Assemb
 D:\Studing\University\Information Protection\RGR\RGR\obj\Debug\RGR.csproj.CoreCompileInputs.cache
 D:\Studing\University\Information Protection\RGR\RGR\obj\Debug\RGR.exe
 D:\Studing\University\Information Protection\RGR\RGR\obj\Debug\RGR.pdb
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\bin\Debug\RGR.exe.config
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\bin\Debug\RGR.exe
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\bin\Debug\RGR.pdb
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\obj\Debug\RGR.csproj.AssemblyReference.cache
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\obj\Debug\RGR.csproj.CoreCompileInputs.cache
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\obj\Debug\RGR.exe
+D:\Studing\University\Information Protection\InformationProtection\RGR\RGR\obj\Debug\RGR.pdb

@@ -20,10 +20,11 @@ namespace RGR
 
     public class Graph
     {
+        public static string[] colors = { "GREEN", "RED", "BLUE", "BLACK" };
         public static Dictionary<int, string> ColorGraph(List<Edge> edges, int numVertices)
         {
             // Список цветов, которые можно использовать
-            string[] colors = { "GREEN", "RED", "BLUE" };
+            
 
             // Перемешиваем цвета случайным образом
             Random rnd = new Random();
@@ -59,11 +60,11 @@ namespace RGR
                 }
 
                 // Проверяем, есть ли доступный цвет
-                /*if (!colors.Except(usedColors).Any())
+                if (!colors.Except(usedColors).Any())
                 {
                     // Если нет доступного цвета, то не удается раскрасить граф
                     throw new Exception("Невозможно раскрасить граф с использованием данного количества цветов.");
-                }*/
+                }
 
                 // Выбираем первый доступный цвет
                 foreach (var color in colors)

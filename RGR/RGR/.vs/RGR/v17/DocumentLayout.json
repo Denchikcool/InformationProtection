@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Studing\\University\\Information Protection\\RGR\\RGR\\",
+  "WorkspaceRootPath": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|d:\\studing\\university\\information protection\\rgr\\rgr\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|d:\\studing\\university\\information protection\\informationprotection\\rgr\\rgr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|d:\\studing\\university\\information protection\\rgr\\rgr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\mainoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:mainoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\rsamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:rsamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +34,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Graph.cs",
-              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\RGR\\RGR\\Graph.cs",
-              "RelativeDocumentMoniker": "Graph.cs",
-              "ToolTip": "D:\\Studing\\University\\Information Protection\\RGR\\RGR\\Graph.cs",
-              "RelativeToolTip": "Graph.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCoAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RSAMethods.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\RSAMethods.cs",
+              "RelativeDocumentMoniker": "RSAMethods.cs",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\RSAMethods.cs",
+              "RelativeToolTip": "RSAMethods.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:54:04.855Z",
+              "WhenOpened": "2024-11-02T14:56:17.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainOperations.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\MainOperations.cs",
+              "RelativeDocumentMoniker": "MainOperations.cs",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\MainOperations.cs",
+              "RelativeToolTip": "MainOperations.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:32:20.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Graph.cs",
+              "RelativeDocumentMoniker": "Graph.cs",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Graph.cs",
+              "RelativeToolTip": "Graph.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:54:04.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\RGR\\RGR\\Program.cs",
+              "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Studing\\University\\Information Protection\\RGR\\RGR\\Program.cs",
+              "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwCwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwFUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T11:50:44.402Z",
               "EditorCaption": ""

@@ -37,7 +37,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graph.cs" />
+    <Compile Include="MainOperations.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="RSAMethods.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
