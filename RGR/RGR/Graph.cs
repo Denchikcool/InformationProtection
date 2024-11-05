@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace RGR
 {
+    //класс ребра
     public class Edge
     {
         public int Source { get; set; }
@@ -20,12 +21,9 @@ namespace RGR
 
     public class Graph
     {
-        public static string[] colors = { "GREEN", "RED", "BLUE", "BLACK" };
+        public static string[] colors = { "YELLOW", "RED", "BLUE", "BLACK" };
         public static Dictionary<int, string> ColorGraph(List<Edge> edges, int numVertices)
         {
-            // Список цветов, которые можно использовать
-            
-
             // Перемешиваем цвета случайным образом
             Random rnd = new Random();
             colors = colors.OrderBy(x => rnd.Next()).ToArray();
