@@ -9,29 +9,6 @@ namespace RGR
 {
     class MainOperations
     {
-        /*public static ulong FastPow(ulong a, ulong x, ulong p)
-        {
-            ulong result = 1;
-            List<ulong> temp = new List<ulong> { a % p };
-            ulong t = (ulong)Math.Floor(Math.Log(x, 2));
-
-            List<ulong> binaryExponent = ToBinary(x);
-
-            for (int i = 1; i <= (int)t; i++)
-            {
-                temp.Add((temp[i - 1] * temp[i - 1]) % p);
-            }
-
-            for (int i = 0; i <= (int)t; i++)
-            {
-                if (binaryExponent[i] != 0)
-                {
-                    result = (result * temp[i]) % p;
-                }
-            }
-            return result;
-        }*/
-
         public static ulong FastPow(ulong baseValue, ulong exponent, ulong modulus)
         {
             ulong result = 1;
@@ -85,17 +62,6 @@ namespace RGR
             return result;
         }
 
-        private static List<ulong> ToBinary(ulong x)
-        {
-            List<ulong> result = new List<ulong>();
-            while (x != 0)
-            {
-                result.Add(x & 1);
-                x = x >> 1;
-            }
-            return result;
-        }
-
         public static ulong GenerateModule(ulong left, ulong right, Random rnd)
         {
             //Random rnd = new Random();
@@ -137,25 +103,50 @@ namespace RGR
             return a;
         }
 
+        public static BigInteger Gcd1(BigInteger a, BigInteger b)
+        {
+            while (b != 0)
+            {
+                BigInteger r = a % b;
+                a = b;
+                b = r;
+            }
+            return a;
+        }
+
         public static ulong GenerateExponent(ulong left, ulong right, Random rnd)
         {
             return (ulong)rnd.Next((int)left, (int)right);
         }
 
-        public static (ulong, ulong, ulong) EvklidSolve(ulong a, ulong b)
+        public static (BigInteger, BigInteger, BigInteger) EvklidSolve1(BigInteger a, BigInteger b)
         {
-            (ulong, ulong, ulong) U = (a, 1, 0);
-            (ulong, ulong, ulong) V = (b, 0, 1);
+            (BigInteger, BigInteger, BigInteger) U = (a, 1, 0);
+            (BigInteger, BigInteger, BigInteger) V = (b, 0, 1);
 
             while (V.Item1 != 0)
             {
-                ulong q = U.Item1 / V.Item1;
-                (ulong, ulong, ulong) T = (U.Item1 % V.Item1, U.Item2 - q * V.Item2, U.Item3 - q * V.Item3);
+                BigInteger q = U.Item1 / V.Item1;
+                (BigInteger, BigInteger, BigInteger) T = (U.Item1 % V.Item1, U.Item2 - q * V.Item2, U.Item3 - q * V.Item3);
                 U = V;
                 V = T;
             }
 
             return U;
+        }
+
+        public static ulong GenerateCoprime(BigInteger p)
+        {
+            ulong result = 0;
+            for (ulong i = 2; i < p; i++)
+            {
+                if (MainOperations.Gcd1(p, i) == 1)
+                {
+                    result = i;
+                    break;
+                }
+            }
+            return result;
         }
     }
 }
