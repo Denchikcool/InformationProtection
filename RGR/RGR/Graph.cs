@@ -38,8 +38,14 @@ namespace RGR
             }
 
             // Сортируем вершины по степени
-            var sortedVertices = GetSortedVerticesByDegree(edges, numVertices);
-            sortedVertices.OrderBy(x => rnd.Next()).ToList();
+            List<int> sortedVertices = GetSortedVerticesByDegree(edges, numVertices);
+
+            Console.WriteLine("Отсортированный список вершин:");
+            foreach (var vertex in sortedVertices)
+            {
+                Console.Write($"{vertex + 1} ");
+            }
+            Console.WriteLine();
 
             // Раскрашиваем вершины по порядку, начиная с вершины с максимальной степенью
             foreach (int vertex in sortedVertices)
