@@ -57,18 +57,18 @@ namespace RGR
                     vertexesWithR.Add(r);
                 }
 
-                Dictionary<string, int> colorToBinary = new Dictionary<string, int>();
+                Dictionary<string, string> colorToBinary = new Dictionary<string, string>();
                 for (int i = 0; i < Graph.colors.Length; i++)
                 {
                     string binaryCode = Convert.ToString(i, 2).PadLeft(2, '0');
-                    colorToBinary.Add(Graph.colors[i], int.Parse(binaryCode));
+                    colorToBinary.Add(Graph.colors[i], binaryCode);
                 }
 
                 for(int i = 0; i < numVertices; i++)
                 {
-                    int binaryColor = colorToBinary[vertexColors[i]];
+                    string binaryColor = colorToBinary[vertexColors[i]];
                     string tempNumber = vertexesWithR[i].ToString();
-                    tempNumber = tempNumber.Substring(0, tempNumber.Length - 2) + binaryColor.ToString().PadLeft(2, '0');
+                    tempNumber = tempNumber.Substring(0, tempNumber.Length - 2) + binaryColor;
 
                     vertexesWithR[i] = ulong.Parse(tempNumber);
                 }
@@ -96,10 +96,10 @@ namespace RGR
                     Console.WriteLine($"Вершина {i + 1}: R = {vertexesWithR[i]}, Цвет = {vertexColors[i]}, Двоичный код = {colorToBinary[vertexColors[i]]}");
                     Console.WriteLine($"N = {informationVertexes[i]["N"]}, C = {informationVertexes[i]["C"]}, D = {informationVertexes[i]["D"]}");
                     Console.WriteLine($"Z = {zVertex[i]}");
-                    Console.WriteLine($"C * D % N = {MainOperations.FastPow1(informationVertexes[i]["C"] * informationVertexes[i]["D"], 1, informationVertexes[i]["phi"])}");
+                    Console.WriteLine($"C * D % phi = {MainOperations.FastPow1(informationVertexes[i]["C"] * informationVertexes[i]["D"], 1, informationVertexes[i]["phi"])}");
                 }
 
-                BobChecks(edges, vertexesWithR, informationVertexes, zVertex);
+                BobChecks(edges, informationVertexes, zVertex);
             }
             catch (Exception ex)
             {
@@ -107,7 +107,7 @@ namespace RGR
             }
         }
 
-        static void BobChecks(List<Edge> edges, List<ulong> vertexesWithR, List<Dictionary<string, BigInteger>> informationVertexes, List<BigInteger> zVertex)
+        static void BobChecks(List<Edge> edges, List<Dictionary<string, BigInteger>> informationVertexes, List<BigInteger> zVertex)
         {
             string lastTwoBits_r1 = "", lastTwoBits_r2 = "";
             Console.WriteLine("Начинаю проверку раскраски графа Алисой.");
@@ -136,7 +136,7 @@ namespace RGR
 
                     if (lastTwoBits_r1 == lastTwoBits_r2)
                     {
-                        Console.WriteLine($"Ошибка: Вершины {source} и {destination} имеют одинаковые последние два бита в результатах возведения в степень.");
+                        Console.WriteLine($"Ошибка: Вершины {source + 1} и {destination} имеют одинаковые последние два бита в результатах возведения в степень.");
                         return;
                     }
                 }
