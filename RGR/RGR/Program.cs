@@ -41,6 +41,7 @@ namespace RGR
             try
             {
                 Dictionary<int, string> vertexColors = Graph.ColorGraph(edges, numVertices);
+                //vertexColors[11] = "BLUE";
 
                 Console.WriteLine("Раскраска графа:");
                 for (int i = 0; i < numVertices; i++)
@@ -136,7 +137,7 @@ namespace RGR
 
                     if (lastTwoBits_r1 == lastTwoBits_r2)
                     {
-                        Console.WriteLine($"Ошибка: Вершины {source + 1} и {destination} имеют одинаковые последние два бита в результатах возведения в степень.");
+                        Console.WriteLine($"Ошибка: Вершины {source + 1} и {destination + 1} имеют одинаковые последние два бита в результатах возведения в степень.");
                         return;
                     }
                 }
