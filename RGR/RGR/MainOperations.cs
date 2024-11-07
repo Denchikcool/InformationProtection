@@ -9,22 +9,23 @@ namespace RGR
 {
     class MainOperations
     {
-        public static ulong FastPow(ulong baseValue, ulong exponent, ulong modulus)
+        public static ulong FastPow(ulong a, ulong x, ulong p)
         {
             ulong result = 1;
-            baseValue %= modulus;
-
-            while (exponent > 0)
+            List<ulong> temp = new List<ulong> { a % p };
+            ulong t = (ulong)Math.Floor(Math.Log(x, 2));
+            List<ulong> binaryExponent = ToBinary(x);
+            for (int i = 1; i <= (int)t; i++)
             {
-                if (exponent % 2 == 1)
-                {
-                    result = (result * baseValue) % modulus;
-                }
-
-                baseValue = (baseValue * baseValue) % modulus;
-                exponent /= 2;
+                temp.Add((temp[i - 1] * temp[i - 1]) % p);
             }
-
+            for (int i = 0; i <= (int)t; i++)
+            {
+                if (binaryExponent[i] != 0)
+                {
+                    result = (result * temp[i]) % p;
+                }
+            }
             return result;
         }
 
@@ -47,6 +48,17 @@ namespace RGR
                 {
                     result = (result * temp[i]) % p;
                 }
+            }
+            return result;
+        }
+
+        private static List<ulong> ToBinary(ulong x)
+        {
+            List<ulong> result = new List<ulong>();
+            while (x != 0)
+            {
+                result.Add(x & 1);
+                x = x >> 1;
             }
             return result;
         }
@@ -140,7 +152,7 @@ namespace RGR
             ulong result = 0;
             for (ulong i = 2; i < p; i++)
             {
-                if (MainOperations.Gcd1(p, i) == 1)
+                if (Gcd1(p, i) == 1)
                 {
                     result = i;
                     break;
