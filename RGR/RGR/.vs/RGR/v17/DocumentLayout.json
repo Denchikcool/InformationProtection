@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:mainoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\rsamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:rsamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891E50BB-1881-4977-8B30-B86049591194}|RGR.csproj|solutionrelative:graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RSAMethods.cs",
               "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\RSAMethods.cs",
               "RelativeDocumentMoniker": "RSAMethods.cs",
               "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\RSAMethods.cs",
               "RelativeToolTip": "RSAMethods.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAMwAsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T14:56:17.554Z",
               "EditorCaption": ""
@@ -53,20 +53,20 @@
               "RelativeDocumentMoniker": "MainOperations.cs",
               "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\MainOperations.cs",
               "RelativeToolTip": "MainOperations.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAqwIgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAcwJwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T14:32:20.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Graph.cs",
               "DocumentMoniker": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Graph.cs",
               "RelativeDocumentMoniker": "Graph.cs",
               "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Graph.cs",
               "RelativeToolTip": "Graph.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAiwBwAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAcwGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T11:54:04.855Z",
               "EditorCaption": ""
@@ -79,7 +79,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Studing\\University\\Information Protection\\InformationProtection\\RGR\\RGR\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T11:50:44.402Z",
               "EditorCaption": ""
